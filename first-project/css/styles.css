@@ -1,0 +1,24 @@
+.h2{
+    color: palevioletred;
+    text-align: center;
+    border-top-style:solid;
+    text-decoration-line: underline;
+    font-size: x-large;
+    font-family:monospace;
+    text-transform: uppercase;
+};
+
+*p{
+    text-transform: uppercase;
+    color: palevioletred;
+    /* text-align: justify; */
+    /* width: 300px; */
+};
+
+f0{
+    background-color: #000;
+}
+
+body{
+    background-color: #0palevioletred0;
+}
