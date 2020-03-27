@@ -1,24 +1,93 @@
-.h2{
+.site-logo-link{
+    background-color: lightpink;
     color: palevioletred;
-    text-align: center;
-    border-top-style:solid;
-    text-decoration-line: underline;
-    font-size: x-large;
-    font-family:monospace;
-    text-transform: uppercase;
-};
+    padding: 5px;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: Oldstyle;
+    letter-spacing: 6px;
+}
 
-*p{
-    text-transform: uppercase;
+@font-face {
+    font-family: Oldstyle;
+    src: url(/abc/18683.ttf);
+}
+@font-face {
+    font-family: style01;
+    src: url(/abc/18450.ttf);
+}
+@font-face {
+    font-family: style02;
+    src: url(/abc/18076.ttf);
+}
+@font-face {
+    font-family: style03;
+    src: url(/abc/18224.ttf);
+}
+@font-face {
+    font-family: style04;
+    src: url(/abc/18449.ttf);
+}
+@font-face {
+    font-family: style05;
+    src: url(/abc/18328.ttf);
+}
+@font-face {
+    font-family: style06;
+    src: url(/abc/17993.otf);
+}
+
+.main-menu{
+    margin: 10px; padding: 25px;
+    border-bottom: 15px solid deeppink;
+    display: inline-block;
+}
+.main-menu li {
+    display: inline-block;
+    width: 130px; height: 80px;
+    border-radius: 30%;
+    background: indigo;
+    line-height: 60px;
+    position: relative; top: 50px;
+    margin-left: 17px;
+    margin-block-end: auto;
+}
+
+h2{
+    background-color: lightpink;
     color: palevioletred;
-    /* text-align: justify; */
-    /* width: 300px; */
-};
+    padding:  5px;
+    font-size: 50px;
+    font-family: style02;
+}
 
-f0{
-    background-color: #000;
+.work-text-item{
+    font-size: 30px;
+    font-family: style01;
+}
+
+.serv-text,.someP,.feat-text{
+    font-size: 25px;
+    font-family: style04;
+}
+
+table{
+    background: deeppink;
+    border-spacing: 15px;
+}
+th{
+    font-family: style06;
+    background-color: indigo;
+    color: deeppink;
+    font-family: style06;
+    font-size: 30px;
+}
+td{
+    background-color: indigo;
+    padding: 10px;
+
 }
 
 body{
-    background-color: #0palevioletred0;
+    background-color: palevioletred;
 }
